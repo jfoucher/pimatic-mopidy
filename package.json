@@ -1,0 +1,35 @@
+{
+  "name": "pimatic-mopidy",
+  "description": "pimatic plugin for controlling the Music Player Daemon with Mopidy",
+  "author": {
+    "name": "Jonathan Foucher",
+    "email": "jfoucher@gmail.com",
+    "url": "http://jfoucher@gmail.com"
+  },
+
+  "main": "mopidy",
+  "files": [
+    "mopidy.coffee",
+    "README.md",
+    "mopidy-config-schema.coffee",
+    "device-config-schema.coffee"
+  ],
+  "version": "0.8.12",
+  "homepage": "http://www.pimatic.org",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jfoucher/pimatic-mopidy.git"
+  },
+  "configSchema": "mopidy-config-schema.coffee",
+  "dependencies": {
+    "mopidy": ">=0.5.0"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+
+}
