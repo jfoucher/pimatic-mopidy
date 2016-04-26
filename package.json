@@ -6,11 +6,12 @@
     "email": "jfoucher@gmail.com",
     "url": "http://jfoucher@gmail.com"
   },
-
+  "license": "GPL-2.0",
   "main": "mopidy",
   "files": [
     "mopidy.coffee",
     "README.md",
+    "LICENSE",
     "mopidy-config-schema.coffee",
     "device-config-schema.coffee"
   ],
